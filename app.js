@@ -82,7 +82,7 @@ function agregarAlCarrito(id) {
         let div = document.createElement('div')
         div.classList.add('productoEnCarrito')
         div.innerHTML = `
-        <p>${productoAgregar.nombre}</p>
+        <p>${productoAgregar.lamina}</p>
         <p id=cantidad${productoAgregar.id}>cantidad:${productoAgregar.cantidad}</p>
         <p>Precio: $${productoAgregar.precio}</p>
         <button id="eliminar${productoAgregar.id}" class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
