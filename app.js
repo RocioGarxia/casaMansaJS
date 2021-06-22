@@ -7,6 +7,45 @@ const contenedorCarrito = document.getElementById('carrito-contenedor')
 const contadorCarrito = document.getElementById('contadorCarrito')
 const precioTotal = document.getElementById('precioTotal')
 
+
+
+function Productos (id,title,price,thumbnail,available_quantity){
+    this.id = id;
+    this.title= title;
+    this.price= price;
+    this.thumbnail = thumbnail;
+    this.stock = available_quantity;
+}
+
+$.get('https://api.mercadolibre.com/sites/MLA/search?category=MLA1430&limit=10',
+
+    function(data){ 
+        data.results.forEach((prod) => {
+         let cantidad = 1;   
+            stockProductos.push(
+            new Productos(prod.id, prod.title, prod.price, prod.thumbnail,prod.available_quantity, cantidad)
+            )
+            let div = document.createElement('div')
+        div.classList.add('producto')
+        div.innerHTML += `
+                    <img src=${prod.thumbnail} alt="">
+                    <h3>${prod.title}</h3>
+                    <p class="precioProducto">Precio: $${prod.price}</p>
+                    <p>stock:${prod.available_quantity}</p>
+                    <button id="boton${prod.id}" class="boton-agregar">Agregar <i class="fas fa-shopping-cart"></i></button>
+        `
+        contenedorProductos.appendChild(div)
+        
+        let boton = document.getElementById(`boton${prod.id}`)
+        
+        boton.addEventListener('click', ()=>{
+            agregarAlCarrito(prod.id)
+         })
+
+    });
+  }
+)
+
 const selectTamaño = document.getElementById('selectTamaño')
 
 selectTamaño.addEventListener('change', ()=>{
@@ -89,9 +128,7 @@ function agregarAlCarrito(id) {
         `
         contenedorCarrito.appendChild(div)
 
-        //nuevas lineas//
-
-        let count = document.getElementById(`cantidad${id}`)
+               let count = document.getElementById(`cantidad${id}`)
         carritoDeCompras.map(x=>{
             if(x.id == id){
             count.innerText = `cantidad: ${x.cantidad = 1}`
