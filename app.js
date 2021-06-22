@@ -17,6 +17,7 @@ function Productos (id,title,price,thumbnail,available_quantity){
     this.stock = available_quantity;
 }
 
+/* APIS 
 $.get('https://api.mercadolibre.com/sites/MLA/search?category=MLA1430&limit=10',
 
     function(data){ 
@@ -44,7 +45,7 @@ $.get('https://api.mercadolibre.com/sites/MLA/search?category=MLA1430&limit=10',
 
     });
   }
-)
+) */
 
 const selectTamaño = document.getElementById('selectTamaño')
 
@@ -152,7 +153,7 @@ function actualizarCarrito() {
     contadorCarrito.innerText = carritoDeCompras.reduce((acc, el) => acc + el.cantidad, 0)
     
     localStorage.setItem('carritoDeCompras', JSON.stringify(carritoDeCompras))
-    precioTotal.innerText = carritoDeCompras.reduce((acc, el) => acc + el.precio, 0)
+    precioTotal.innerText = carritoDeCompras.reduce((acc, el) => acc + el.precio, 0) //en api //
 }
 
 
