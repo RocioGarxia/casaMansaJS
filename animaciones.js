@@ -1,29 +1,16 @@
-
-/* $(document).ready(function(){
-$("#EnviarFormulario").click (function(){
-    $("#exampleModal").fadeOut(5000)
-    });
-});
-
-
 $(document).ready(function(){
-    $('.img').animate({
-        "padding": "5rem",
-      "margin-left": "5rem",
+    $("#arte").click(function(){
+        $(".caja").animate({
+            height: "200px",
+            width: "500px",
+            marginRight: "20px",
+            marginTop: "50px",
+            padding: "40px",
+            fontSize: "40px",        
+        
         }, 3000, function () {
-            $('.img').animate({
-                "width": "5rem"},3000);
-        });  
-    }); 
-        */
-
- $(document).ready(function(){
-        $("#arte").click(function(){
-            $(".mainTitle").animate({
-                fontSize:"15 rem",
-                letterSpacing:"8px",}, 3000, function () {
-                    $(".mainTitle").fadeOut (5000);
-            
-            });
+                $(".caja").fadeOut (5000);
+        
         });
     });
+});

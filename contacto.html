@@ -12,7 +12,7 @@
     <title>Contacto</title>
     <!--aquí el nombre que aparecerá en la pestaña del navegador-->
 
-     <!--LINKEO jquery-->
+    <!--LINKEO jquery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
@@ -78,16 +78,16 @@
 
     <!--AGREGO CON MODAL LO QUE ANTES ERA UN FORMULARIO EN LA MISMA PAGINA-->
 
-   <div class="center">
-     <!--     Button trigger modal  -->
+    <div class="center">
+        <!--     Button trigger modal  -->
 
         <button type="button" id="btnAbrirFormulario" class="hablemos" data-toggle="modal" data-target="#exampleModal">
             Hablemos!
         </button>
 
-    </div> 
+    </div>
 
-     <!--<form action="" class="formulario">
+    <!--<form action="" class="formulario">
         <h2 class="formulario__titulo">Hablemos!</h2>
 
         <input type="text" class="formulario__input">
@@ -119,51 +119,51 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form action= "" class="formulario">
-                    <section>
+                    <form action="" class="formulario">
+                        <section>
+                            <fieldset>
+                                <legend>Mail de contacto</legend>
+
+                                <input type="email" name="email" placeholder="nombre@ejemplo.com" /> <br>
+                            </fieldset>
+
+
+
+                            <!--botón de radio-->
+                            <fieldset>
+                                <legend>Opciones de Interés</legend>
+
+                                <div class="subtitle">Arte</div>
+                                <input type="radio" name="sexo" value="hombre" />
+                                <div class="subtitle">Arquitectura</div>
+                                <input type="radio" name="sexo" value="mujer" />
+
+                            </fieldset>
+                        </section>
+
+
+
+                        <!--casillas de chequeo-->
                         <fieldset>
-                            <legend>Mail de contacto</legend>
-
-                        <input type="email" name="email" placeholder="nombre@ejemplo.com" /> <br>
-                        </fieldset> 
-
-                        
-
-                        <!--botón de radio-->
-                         <fieldset>
-                            <legend>Opciones de Interés</legend>
-
-                            <div class="subtitle">Arte</div>
-                            <input type="radio" name="sexo" value="hombre" />
-                            <div class="subtitle">Arquitectura</div>
-                            <input type="radio" name="sexo" value="mujer" />
-
+                            <legend>¿Querés formar parte de nuestro Newsletter?</legend>
+                            <form>
+                                <div class="subtitle">Quiero recibir información a mi casilla de mail</div>
+                                <input type="checkbox" name="acepta" value="1" />
                         </fieldset>
-                    </section>
 
-                    
 
-                    <!--casillas de chequeo-->
-                     <fieldset>
-                        <legend>¿Querés formar parte de nuestro Newsletter?</legend>
-                        <form>
-                            <div class="subtitle">Quiero recibir información a mi casilla de mail</div>
-                            <input type="checkbox" name="acepta" value="1" />
-                    </fieldset>
 
-                    
+                        <!--dropdown menu-->
+                        <fieldset>
+                            <legend>¿Qué tipo de regalo te gustaría recibir?</legend>
+                            <select name="Tipo de regalo">
+                                <option value="Cuadro">Cuadro</option>
+                                <option value="Escultura">Escultura</option>
+                                <option value="Objeto curiosidad">Objeto Curiosidad</option>
+                            </select>
+                        </fieldset>
 
-                    <!--dropdown menu-->
-                   <fieldset>
-                        <legend>¿Qué tipo de regalo te gustaría recibir?</legend>
-                        <select name="Tipo de regalo">
-                            <option value="Cuadro">Cuadro</option>
-                            <option value="Escultura">Escultura</option>
-                            <option value="Objeto curiosidad">Objeto Curiosidad</option>
-                        </select>
-                    </fieldset>
 
-                    
                 </div>
                 <div class="modal-footer">
                     <button type="button" id="EliminarFormulario" class="btn btn-secondary"
@@ -182,7 +182,7 @@
         <li><a href="https://www.instagram.com/arte_immperfecta"> <i class="fab fa-instagram"></i></a></li>
         <li><a href="https://www.linkedin.com/in/rociogarciacrespo/"> <i class="fab fa-linkedin"></i></a></li>
     </footer>
- <script src= "COMPONENTS/form.js"></script>
+    <script src="COMPONENTS/form.js"></script>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
