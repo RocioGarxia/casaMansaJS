@@ -9,8 +9,9 @@ $(document).ready(function(){
             fontSize: "40px",        
         
         }, 3000, function () {
-                $(".caja").fadeOut (5000);
+                $(".caja").fadeOut (5000), 
+                $(".caja").fadeIn (5000);  
+                });
         
         });
     });
-});
