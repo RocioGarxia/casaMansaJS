@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,200&family=Playfair+Display:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+/* ACA DECLARO LA VARIABLE MARGIN */
+/* ACA OPERO + SOBRE LA VARIABLE MARGIN */
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.75rem; }
+
+body {
+  background: url(../Imagenes/fondoInk.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center; }
+
+.mainTitle {
+  font-family: "Playfair Display", serif;
+  position: relative;
+  font-size: 9.375rem;
+  letter-spacing: 0rem;
+  color: rgba(56, 67, 231, 0);
+  text-align: center;
+  -webkit-text-stroke: 0.3vh #faf8f894;
+  animation: casaMansa 6s linear infinite; }
+
+.manifesto {
+  font-family: 3.125rem, "Playfair Display", serif;
+  color: #faf8f894;
+  text-align: center; }
+
+.titulosSecciones {
+  font-family: "Playfair Display", serif;
+  font-size: 50pt;
+  color: #faf8f894;
+  width: 100%;
+  margin-top: 3.75rem;
+  text-align: center;
+  animation: titulosSecciones 6s linear infinite; }
+
+h2 {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #faf8f894;
+  font-size: 1.25 rem;
+  margin: 5 rem; }
+
+.novedades {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #faf8f894;
+  font-size: 1.25 rem;
+  margin: 5 rem; }
+
+p {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #f75188;
+  font-size: 1.3rem;
+  margin: 20px 20px 50px 50px;
+  text-align: justify; }
+
+.pnovedades {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #f75188;
+  font-size: 1.3rem;
+  margin: 20px 20px 50px 50px;
+  text-align: justify; }
+
+footer {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #faf8f894;
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 1.875rem; }
+
+li {
+  padding: 5px;
+  list-style: none;
+  display: inline-block; }
+
+li a {
+  color: cornsilk; }
+
+legend {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #040300;
+  font-size: 20pt;
+  padding: 2px; }
+
+div {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #f75188;
+  font-size: 15pt;
+  padding: 2px; }
+
+.novedadesContainer {
+  width: 80%;
+  margin: auto; }
+
+#boton-carrito {
+  color: cornsilk;
+  background-color: #eec0c60c;
+  background-image: linear-gradient(315deg, #eec0c60e 0%, #7ee7fa0e 54%);
+  padding: 5px;
+  border-style: none;
+  margin-left: 10px; }
+  #boton-carrito:hover {
+    background-image: linear-gradient(315deg, #eec0c688 0%, #7ee7fa75 54%);
+    color: black;
+    font-weight: bold;
+    font-size: 1.62rem; }
+
+.producto p {
+  padding: 0px !important;
+  margin: 10px 0px 10px 0px !important; }
+
+ul li {
+  list-style: none; }
+
+.nav li a {
+  text-decoration: none;
+  font-size: 1.25em;
+  font-family: "Barlow Condensed", sans-serif;
+  text-align: center;
+  display: inline;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  padding: 0.93rem;
+  margin: 1.25rem;
+  color: cornsilk;
+  width: 100%;
+  transition: all 0.5s; }
+
+.nav li a:hover {
+  background-image: linear-gradient(315deg, #eec0c688 0%, #7ee7fa75 74%);
+  color: black;
+  font-weight: bold;
+  font-size: 1.62rem; }
+
+.nav > li {
+  float: left; }
+
+.nav li ul {
+  display: none;
+  position: relative;
+  margin-top: 10px;
+  min-width: 100%;
+  padding: 0.93rem; }
+
+.nav li:hover > ul {
+  display: block; }
+
+.nav li ul li {
+  position: relative;
+  padding: 0.93rem; }
+  .nav li ul li ul {
+    right: -8.75rem;
+    top: 0px;
+    padding: 0.93rem; }
+
+/* ACA PISO ALGUNAS CARACTERISTICAS DEL MODAL*/
+.modal-content {
+  background-color: #90d5ec;
+  background-image: linear-gradient(315deg, #90d5ec8e 0%, #fc575f8e 74%); }
+
+.btn-primary {
+  background-color: crimson; }
+
+#exampleModalLabel {
+  font-size: 50pt !important;
+  margin-top: 2px; }
+
+.subtitle {
+  color: black; }
+
+.contact {
+  margin-top: 150px;
+  margin-left: 150px; }
+
+.hablemos {
+  font-size: 40px;
+  text-align: center;
+  background-color: crimson;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: "Barlow Condensed", sans-serif; }
+
+.center {
+  text-align: center;
+  margin-top: 100px; }
+
+.bg-gradient {
+  background-color: #eec0c60c;
+  background-image: linear-gradient(315deg, #eec0c60e 0%, #7ee7fa0e 74%); }
+
+.nav-link {
+  color: white !important; }
+  .nav-link:hover {
+    background-image: linear-gradient(315deg, #eec0c688 0%, #7ee7fa75 74%);
+    color: black;
+    font-weight: bold;
+    font-size: 1.62rem; }
+
+.navbar-brand {
+  color: crimson !important;
+  font-family: "Barlow Condensed", sans-serif !important; }
+  .navbar-brand:hover {
+    background-image: linear-gradient(315deg, #eec0c688 0%, #7ee7fa75 74%);
+    color: black;
+    font-weight: bold;
+    font-size: 1.62rem; }
+
+/*propiedades imagenes*/
+/* ACA USO LA VARIABLE MARGIN para margin top Y LA MULTIPLICO POR 4 Y AL RESULTADO LE RESTO 0.8*/
+#logo {
+  margin: auto;
+  margin-top: 4.2rem;
+  width: 3.125rem;
+  height: auto;
+  opacity: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+/* ACA USO LA VARIABLE MARGIN para margin left Y LA MULTIPLICO POR 2.5 */
+.img {
+  display: flex;
+  display: inline;
+  flex-flow: row, wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  flex: 1;
+  padding: 0.7rem;
+  margin-left: 3.125rem;
+  overflow: hidden; }
+
+.formulario {
+  box-sizing: border-box;
+  width: 500px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  box-shadow: 0 0 20px 2px rgba 0, 0, 0, 0.3;
+  position: relative; }
+
+.formulario__titulo {
+  text-align: center;
+  margin-top: 0;
+  color: crimson; }
+
+.formulario.submit {
+  display: block;
+  width: 100%;
+  font-size: 1.3 rem; }
+
+.formulario__input {
+  padding: 5px;
+  border: 1px solid rgba 0, 0, 0, 0.3;
+  margin-bottom: 40px;
+  background-color: rgba(255, 248, 220, 0.342); }
+
+.formulario__label {
+  padding-left: 15px;
+  position: absolute;
+  margin-top: -85px;
+  z-index: -20;
+  color: rgba(255, 248, 220, 0.342); }
+
+.formulario_submit {
+  background: rgba(255, 248, 220, 0.342);
+  color: white; }
