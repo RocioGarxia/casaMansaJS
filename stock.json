@@ -58,5 +58,38 @@
       "tamaño": "50x50",
       "precio": 1500,
       "img": "Media/ART13.jpg"
+    },
+
+    {
+      "id": 7,
+      "lamina": "Guernica 2.0",
+      "autor": "Tomás Larco",
+      "tecnica": "Acrílico",
+      "numSerie": 23947,
+      "tamaño": "50x50",
+      "precio": 1500,
+      "img": "Media/ART14.jpg"
+    },
+
+    {
+      "id": 8,
+      "lamina": "Guernica 2.0",
+      "autor": "Tomás Larco",
+      "tecnica": "Acrílico",
+      "numSerie": 23947,
+      "tamaño": "50x50",
+      "precio": 1500,
+      "img": "Media/ART15.jpg"
+    },
+
+    {
+      "id": 9,
+      "lamina": "Guernica 2.0",
+      "autor": "Tomás Larco",
+      "tecnica": "Acrílico",
+      "numSerie": 23947,
+      "tamaño": "50x50",
+      "precio": 1500,
+      "img": "Media/ART16.jpg"
     }
   ]

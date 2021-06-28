@@ -102,7 +102,9 @@ ul li {
     background-image: linear-gradient(315deg, #eec0c60e 0%, #7ee7fa0e 74%); }
   
   .nav-link {
-    color: white !important; }
+    color: white !important; 
+    font-family: "Barlow Condensed", sans-serif !important;
+  }
     .nav-link:hover {
       background-image: linear-gradient(315deg, #eec0c688 0%, #7ee7fa75 74%);
       color: black;
@@ -120,15 +122,16 @@ ul li {
 
 img {
     width: 42%;
-    margin-bottom: 10px; }
+    margin-bottom: 10px; 
+  }
 
-    h2 {
+h2 {
         font-family: "Barlow Condensed", sans-serif;
         color: cornsilk;
         font-size: 1.25 rem;
         margin: 5 rem; }
 
-    p {
+p {
         font-family: "Barlow Condensed", sans-serif;
         color: #f75188;
         font-size: 1.3rem;
@@ -148,34 +151,28 @@ footer {
     text-align: center;
     position: fixed;
     bottom: 0;
-    margin-bottom: 1.875rem; }
+    margin-bottom: .4rem; }
   
   li {
-    padding: 5px;
+    padding: 2px;
     list-style: none;
     display: inline-block; }
   
   li a {
     color: cornsilk; }
   
-/*  li {
-    padding: 5px;
-    list-style: none;
-    display: inline-block; }
-  
-  li a {
-    color: cornsilk; } */
-
 #boton-carrito {
   color: cornsilk;
+  font-family: "Barlow Condensed", sans-serif;
   background-color: #eec0c60c;
   background-image: linear-gradient(315deg, #eec0c60e 0%, #7ee7fa0e 54%);
   padding: 5px;
   border-style: none;
   margin-left: 10px; }
+
   #boton-carrito:hover {
     background-image: linear-gradient(315deg, #eec0c688 0%, #7ee7fa75 54%);
-    color: black;
+    color: crimson;
     font-weight: bold;
     font-size: 1.62rem; }
 
@@ -185,7 +182,7 @@ footer {
 
 #contenedor-productos {
     max-width: 1200px;
-    margin: 20px auto;
+    margin: 10px auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -193,9 +190,9 @@ footer {
 
 .producto {
     max-width: 30%;
-    padding: 10px;
+    padding: 5px;
     margin-bottom: 5px;
-    margin-top: 40px;
+    margin-top: 30px;
     text-align: center;
 }
 .precioProducto {
@@ -299,4 +296,9 @@ footer {
     outline: none;
 }
 
-
+h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  color: crimson;
+  font-weight: bolder;
+  font-size: 1.25 rem;
+  margin: 5 rem; }

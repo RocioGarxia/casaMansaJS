@@ -136,10 +136,9 @@ function agregarAlCarrito(id) {
 
 /*Muestro al usuario un toast con el producto agregado */
 Toastify({
-    text: `Agregaste => ${productoAgregar.lamina}`,
+    text: `Agregaste a ${productoAgregar.lamina}!`,
     backgroundColor: "linear-gradient(to right, #00b09b, #96c93d)",
     className: "info",
-    close: true,
     duration: 1000,
     }).showToast();
 
@@ -148,7 +147,7 @@ let botonEliminar = document.getElementById(`eliminar${productoAgregar.id}`)
 /*Muestro al usuario un toast de alerta con el producto eliminado */
 botonEliminar.addEventListener('click', () => {
     Toastify({
-        text: `Eliminaste a ${productoAgregar.lamina}`,
+        text: `Eliminaste a ${productoAgregar.lamina}!`,
         backgroundColor: "crimson",
         className: "info",
         duration: 1000,
