@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Productos</title>
-    <!--aquí el nombre que aparecerá en la pestaña del navegador-->
 
     <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
 
@@ -20,16 +19,16 @@
         href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&family=Playfair+Display:wght@600&display=swap"
         rel="stylesheet">
 
+        <!--toastify-->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
     <!--LINKEO BOOSTRAP-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/styles_carrito.css">
 
-    <script defer src="stock.js"></script>
-    <script defer src="app.js"></script>
-    <script defer src="modal.js"></script>
-
+    
 </head>
 
 <body>
@@ -71,9 +70,10 @@
 
         <select id="selectTamaño">
             <option value="all">Todos</option>
-            <option value="L">Láminas 100x100</option>
-            <option value="M">Láminas 60x60</option>
-            <option value="S">Láminas 35x35</option>
+            <option value="100x150">Láminas 100x150</option>
+            <option value="80x100">Láminas 80x100</option>
+            <option value="50x50">Láminas 50x50</option>
+            <option value="30x50">Láminas 30x50</option>
         </select>
 
     <main id="contenedor-productos">
@@ -101,7 +101,10 @@
         <li><a href="https://www.linkedin.com/in/rociogarciacrespo/"> <i class="fab fa-linkedin"></i></a></li>
     </footer>
 
-    </section>
+    <script src="JS/app.js"></script>
+    <script src="JS/modal.js"></script>
+    <script src="JS/stock.json"></script>
+
 </body>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -113,5 +116,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
     integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
     crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
 
 </html>

@@ -148,8 +148,8 @@ let botonEliminar = document.getElementById(`eliminar${productoAgregar.id}`)
 /*Muestro al usuario un toast de alerta con el producto eliminado */
 botonEliminar.addEventListener('click', () => {
     Toastify({
-        text: `eliminaste => ${productoAgregar.lamina}`,
-        backgroundColor: "red",
+        text: `Eliminaste a ${productoAgregar.lamina}`,
+        backgroundColor: "crimson",
         className: "info",
         duration: 1000,
         }).showToast();

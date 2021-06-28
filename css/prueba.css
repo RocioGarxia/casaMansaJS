@@ -45,16 +45,12 @@ header {
    /* FIN CSS ANIMACIONES JQUERY*/
 
 body {
-  background: url(../Imagenes/fondoInk.jpg) no-repeat center center fixed;
+  background: url(../Media/fondoInk.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: center; }
-
-
-
-
 
 .titulosSecciones {
   font-family: "Playfair Display", serif;
@@ -201,7 +197,10 @@ ul li {
 
 #exampleModalLabel {
   font-size: 50pt !important;
-  margin-top: 2px; }
+  margin-top: 2px;
+  color: #040300;
+  margin-left: 170px;
+}
 
 .subtitle {
   color: black; }

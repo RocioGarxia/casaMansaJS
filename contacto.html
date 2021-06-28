@@ -10,11 +10,6 @@
     <meta name="keywords" content="Info, Contacto, Informacion">
 
     <title>Contacto</title>
-    <!--aquí el nombre que aparecerá en la pestaña del navegador-->
-
-    <!--LINKEO jquery-->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <!--LINKEO BOOSTRAP-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
@@ -31,9 +26,6 @@
     <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/prueba.css">
-
-    <script defer src="COMPONENTS/stock.js"></script>
-    <script defer src="COMPONENTS/app.js"></script>
 
 </head>
 
@@ -62,12 +54,6 @@
                             <a class="nav-link" href="productos.html">Productos</a>
                         </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar en Casa Mansa</button>
-                        <button id="boton-carrito"> Shop! <i class="fas fa-shopping-cart"></i> <span
-                                id="contadorCarrito">0</span></button>
-                    </form>
                 </div>
             </nav>
         </header>
@@ -76,10 +62,8 @@
 
     <h1 class="titulosSecciones">Contacto</h1>
 
-    <!--AGREGO CON MODAL LO QUE ANTES ERA UN FORMULARIO EN LA MISMA PAGINA-->
-
+    <!--BOTON QUE DISPARA EL MODAL DEL FORMULARIO-->
     <div class="center">
-        <!--     Button trigger modal  -->
 
         <button type="button" id="btnAbrirFormulario" class="hablemos" data-toggle="modal" data-target="#exampleModal">
             Hablemos!
@@ -87,9 +71,7 @@
 
     </div>
 
- 
-
-    <!-- Modal -->
+    <!-- MODAL DE FORMULARIO -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -108,8 +90,6 @@
                                 <input type="email" name="email" placeholder="nombre@ejemplo.com" /> <br>
                             </fieldset>
 
-
-
                             <!--botón de radio-->
                             <fieldset>
                                 <legend>Opciones de Interés</legend>
@@ -122,8 +102,6 @@
                             </fieldset>
                         </section>
 
-
-
                         <!--casillas de chequeo-->
                         <fieldset>
                             <legend>¿Querés formar parte de nuestro Newsletter?</legend>
@@ -131,8 +109,6 @@
                                 <div class="subtitle">Quiero recibir información a mi casilla de mail</div>
                                 <input type="checkbox" name="acepta" value="1" />
                         </fieldset>
-
-
 
                         <!--dropdown menu-->
                         <fieldset>
@@ -144,18 +120,17 @@
                             </select>
                         </fieldset>
 
-
                 </div>
                 <div class="modal-footer">
-                    <button type="button" id="EliminarFormulario" class="btn btn-secondary"
-                        data-dismiss="modal">Eliminar</button>
-                    <input type="submit" id="EnviarFormulario" class="btn btn-primary">Enviar</input>
+                    <input type="submit" id="EliminarFormulario" class="btn btn-secondary"
+                        data-dismiss="modal" value="Eliminar">
+                    <input type="submit" id="EnviarFormulario" class="btn btn-primary" value="Enviar">
                 </div>
 
                 </form>
             </div>
         </div>
-    </div> -->
+    </div>
 
     <footer>Seguinos en nuestras redes!
 
@@ -163,15 +138,20 @@
         <li><a href="https://www.instagram.com/arte_immperfecta"> <i class="fab fa-instagram"></i></a></li>
         <li><a href="https://www.linkedin.com/in/rociogarciacrespo/"> <i class="fab fa-linkedin"></i></a></li>
     </footer>
-    <script src="COMPONENTS/form.js"></script>
+
+    <!--LINKEO JS-->
+    <script src="JS/app.js"></script>
+
+    <!--LINKEO jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
 </body>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
     crossorigin="anonymous"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
     integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
     crossorigin="anonymous"></script>
