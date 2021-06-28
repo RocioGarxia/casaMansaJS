@@ -34,9 +34,8 @@
       "lamina": "El arte de naufragar",
       "autor": "Juana Iful",
       "tecnica": "Acuarela",
-      "numSerie": 95247,
-      "tamaño": "50x50",
-      "precio": 1500,
+      "tamaño": "100x150",
+      "precio": 2500,
       "img": "Media/ART10.jpg"
     },
     {
@@ -55,8 +54,8 @@
       "autor": "Tomás Larco",
       "tecnica": "Acrílico",
       "numSerie": 23947,
-      "tamaño": "50x50",
-      "precio": 1500,
+      "tamaño": "100x150",
+      "precio": 2500,
       "img": "Media/ART13.jpg"
     },
 
@@ -88,8 +87,8 @@
       "autor": "Tomás Larco",
       "tecnica": "Acrílico",
       "numSerie": 23947,
-      "tamaño": "50x50",
-      "precio": 1500,
+      "tamaño": "100x150",
+      "precio": 2500,
       "img": "Media/ART16.jpg"
     }
   ]

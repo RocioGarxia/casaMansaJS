@@ -33,8 +33,7 @@ let stockProductos = []
 window.onload = function () {
 
     $.getJSON('stock.json', function (data) {
-        console.log(data)
-
+        
         data.forEach((productoNuevo) => {
             stockProductos.push(productoNuevo)
         })
@@ -42,10 +41,8 @@ window.onload = function () {
         mostrarProductos(stockProductos)
 
         let carrito = JSON.parse(localStorage.getItem('carrito'))
-        console.log(carrito)
-        if (carrito) {
+                if (carrito) {
             carrito.forEach((el) => {
-                console.log(el.id)
                 agregarAlCarrito(el.id)
             })
         }
@@ -57,7 +54,6 @@ window.onload = function () {
 const selectTamaño = document.getElementById('selectTamaño')
 
 selectTamaño.addEventListener('change', () => {
-    console.log(selectTamaño.value)
     if (selectTamaño.value == "all") {
         mostrarProductos(stockProductos)
     } else {
@@ -96,8 +92,7 @@ function mostrarProductos(array) {
 function agregarAlCarrito(id) {
 
     let validar = carritoDeCompras.some(x => x.id == id)
-    console.log(validar)
-    if (validar) {
+        if (validar) {
         console.log(carritoDeCompras)
         let count = document.getElementById(`cantidad${id}`)
 
@@ -110,10 +105,8 @@ function agregarAlCarrito(id) {
     }
     else {
         let productoAgregar = stockProductos.filter((el) => el.id == id)[0]
-        console.log(productoAgregar)
         carritoDeCompras.push(productoAgregar)
 
-        console.log(carritoDeCompras)
         actualizarCarrito()
 
         let div = document.createElement('div')
@@ -154,9 +147,7 @@ botonEliminar.addEventListener('click', () => {
         }).showToast();
 
     botonEliminar.parentElement.remove()
-    console.log(botonEliminar.parentElement)
     carritoDeCompras = carritoDeCompras.filter((el) => el.id != productoAgregar.id)
-    console.log(carritoDeCompras)
     actualizarCarrito()
     })
     }
