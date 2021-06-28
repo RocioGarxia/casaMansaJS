@@ -7,7 +7,7 @@
       "numSerie": 11554,
       "tamaño": "100x150",
       "precio": 2500,
-      "img": "Imagenes/ART8.jpg"
+      "img": "Media/ART8.jpg"
     },
     {
       "id": 2,
@@ -17,7 +17,7 @@
       "numSerie": 11253,
       "tamaño": "80x100",
       "precio": 1500,
-      "img": "Imagenes/ART9.jpg"
+      "img": "Media/ART9.jpg"
     },
     {
       "id": 3,
@@ -27,7 +27,7 @@
       "numSerie": 18584,
       "tamaño": "30x50",
       "precio": 1000,
-      "img": "Imagenes/ART11.jpg"
+      "img": "Media/ART11.jpg"
     },
     {
       "id": 4,
@@ -37,7 +37,7 @@
       "numSerie": 95247,
       "tamaño": "50x50",
       "precio": 1500,
-      "img": "Imagenes/ART10.jpg"
+      "img": "Media/ART10.jpg"
     },
     {
       "id": 5,
@@ -47,7 +47,7 @@
       "numSerie": 51410,
       "tamaño": "50x50",
       "precio": 1500,
-      "img": "Imagenes/ART12.jpg"
+      "img": "Media/ART12.jpg"
     },
     {
       "id": 6,
@@ -57,6 +57,6 @@
       "numSerie": 23947,
       "tamaño": "50x50",
       "precio": 1500,
-      "img": "Imagenes/ART13.jpg"
+      "img": "Media/ART13.jpg"
     }
   ]
