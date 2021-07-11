@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "lamina": "Soy BIG Lola ",
+      "lamina": "El Desierto",
       "autor": "Jorge Rebord",
       "tecnica": "Óleo",
       "numSerie": 11554,
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "lamina": "Soy Mid Lola",
+      "lamina": "La Gruta",
       "autor": "Jorge Rebord",
       "tecnica": "Óleo",
       "numSerie": 11253,
@@ -21,9 +21,9 @@
     },
     {
       "id": 3,
-      "lamina": "Soy TINY Lola",
-      "autor": "Jorge Rebord",
-      "tecnica": "Óleo",
+      "lamina": "El Estallido",
+      "autor": "Inés García",
+      "tecnica": "Acrílico",
       "numSerie": 18584,
       "tamaño": "30x50",
       "precio": 1000,
@@ -34,6 +34,7 @@
       "lamina": "El arte de naufragar",
       "autor": "Juana Iful",
       "tecnica": "Acuarela",
+      "numSerie": 59675,
       "tamaño": "100x150",
       "precio": 2500,
       "img": "Media/ART10.jpg"
@@ -61,21 +62,21 @@
 
     {
       "id": 7,
-      "lamina": "Guernica 2.0",
-      "autor": "Tomás Larco",
-      "tecnica": "Acrílico",
-      "numSerie": 23947,
+      "lamina": "Savannah, Georgia",
+      "autor": "Marisol del Valle",
+      "tecnica": "Óleo y Espátula",
+      "numSerie": 189571,
       "tamaño": "50x50",
       "precio": 1500,
-      "img": "Media/ART14.jpg"
+      "img": "Media/ART18.jpg"
     },
 
     {
       "id": 8,
-      "lamina": "Guernica 2.0",
-      "autor": "Tomás Larco",
+      "lamina": "Destellos",
+      "autor": "Inés García",
       "tecnica": "Acrílico",
-      "numSerie": 23947,
+      "numSerie": 45030,
       "tamaño": "50x50",
       "precio": 1500,
       "img": "Media/ART15.jpg"
@@ -83,10 +84,10 @@
 
     {
       "id": 9,
-      "lamina": "Guernica 2.0",
-      "autor": "Tomás Larco",
-      "tecnica": "Acrílico",
-      "numSerie": 23947,
+      "lamina": "Tallasophobia",
+      "autor": "Rafael Jaure",
+      "tecnica": "Óleo y Espátula",
+      "numSerie": 63920,
       "tamaño": "100x150",
       "precio": 2500,
       "img": "Media/ART16.jpg"

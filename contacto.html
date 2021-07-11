@@ -66,7 +66,7 @@
     <div class="center">
 
         <button type="button" id="btnAbrirFormulario" class="hablemos" data-toggle="modal" data-target="#exampleModal">
-            Hablemos!
+            Hablemos! 
         </button>
 
     </div>
@@ -82,17 +82,24 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form action="" class="formulario">
+                    <form action="" class="formulario" id="formContacto">
                         <section>
                             <fieldset>
-                                <legend>Mail de contacto</legend>
-
-                                <input type="email" name="email" placeholder="nombre@ejemplo.com" /> <br>
+                                <legend>¿Cómo te llamás?</legend>
+                                <input type="text" id="nombre" placeholder="Juan Perez" /> <br>
+                                <div id= "errorNombre"></div>
                             </fieldset>
 
+                            <fieldset>
+                                <legend>¿Cuál es tu mail?</legend>
+
+                                <input type="email" id="email" placeholder="nombre@ejemplo.com" /> <br>
+                                <div id= "errorEmail"></div>
+                            </fieldset>
+                            
                             <!--botón de radio-->
                             <fieldset>
-                                <legend>Opciones de Interés</legend>
+                                <legend>¿Qué te interesa más?</legend>
 
                                 <div class="subtitle">Arte</div>
                                 <input type="radio" name="sexo" value="hombre" />
@@ -124,8 +131,9 @@
                 <div class="modal-footer">
                     <input type="submit" id="EliminarFormulario" class="btn btn-secondary"
                         data-dismiss="modal" value="Eliminar">
-                    <input type="submit" id="EnviarFormulario" class="btn btn-primary" value="Enviar">
+                    <input type="submit" id="EnviarFormulario" class="btn btn-primary" value="Enviar" >
                 </div>
+                
 
                 </form>
             </div>
@@ -139,12 +147,14 @@
         <li><a href="https://www.linkedin.com/in/rociogarciacrespo/"> <i class="fab fa-linkedin"></i></a></li>
     </footer>
 
-    <!--LINKEO JS-->
-    <script src="JS/app.js"></script>
+<!--LINKEO jquery-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <!--LINKEO jquery-->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!--LINKEO JS-->
+<script src="JS/form.js"></script>
+
+
 
 </body>
 

@@ -18,6 +18,27 @@ $(document).ready(function () {
 
 });
 
+/* let nombre = document.getElementById ("nombre");
+let email = document.getElementById ("email");
+let error = document.getElementById ("error");
+
+let form = document.getElementById("formContacto");
+form.addEventListener ("submit", function (evt){
+evt.preventDefault ();
+let mensajesError = [];
+
+if (nombre.value === null || nombre.value === ""){
+mensajesError.push ("Ingresá tu nombre");
+}
+
+if (email.value === null || email.value === ""){
+mensajesError.push ("Ingresá tu email");
+}
+
+error.innerHTML = mensajesError.join (", ");
+});
+*/
+
 let carritoDeCompras = []
 
 const contenedorProductos = document.getElementById('contenedor-productos')
@@ -129,7 +150,7 @@ function agregarAlCarrito(id) {
 
 /*Muestro al usuario un toast con el producto agregado */
 Toastify({
-    text: `Agregaste a ${productoAgregar.lamina}!`,
+    text: `Agregaste a ${productoAgregar.lamina} 😍`,
     backgroundColor: "linear-gradient(to right, #00b09b, #96c93d)",
     className: "info",
     duration: 1000,
@@ -140,7 +161,7 @@ let botonEliminar = document.getElementById(`eliminar${productoAgregar.id}`)
 /*Muestro al usuario un toast de alerta con el producto eliminado */
 botonEliminar.addEventListener('click', () => {
     Toastify({
-        text: `Eliminaste a ${productoAgregar.lamina}!`,
+        text: `Eliminaste a ${productoAgregar.lamina} 😭`,
         backgroundColor: "crimson",
         className: "info",
         duration: 1000,
