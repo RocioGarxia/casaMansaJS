@@ -62,7 +62,7 @@
         </nav>
     </header>
 
-
+<!--Filtrar Láminas por tamaño-->
 
         <select id="selectTamaño">
             <option value="all">Todos</option>
@@ -72,23 +72,25 @@
             <option value="30x50">Láminas 30x50</option>
         </select>
 
+<!--Sección Productos-->      
     <main id="contenedor-productos">
     </main>
 
+<!--Modal con Carrito de Compras-->
     <div class="modal-contenedor">
         <div class="modal-carrito">
             <h3>Aquí está tu compra!</h3>
             <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
-            <div id="carrito-contenedor">
-
-            </div>
-
+           
+            <div id="carrito-contenedor"> </div>
+            
             <p class="precioProducto">Precio total: $<span id="precioTotal"></span></p>
-
-        </div>
+            <button class="btn btn-success ml-auto comprarButton" id=confirmarCompra type="button" data-toggle="modal"
+            data-target="#comprarModal">Confirmar Compra</button>
+             </div>
     </div>
 
-   
+ 
     <footer>Seguinos en nuestras redes!
 
         <li><a href="https://www.facebook.com/arte.immperfecta"> <i class="fab fa-facebook"></i></a></li>

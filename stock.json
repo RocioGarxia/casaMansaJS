@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "lamina": "La Gruta",
+      "lamina": "Las Grutas",
       "autor": "Jorge Rebord",
       "tecnica": "Óleo",
       "numSerie": 11253,
@@ -21,7 +21,7 @@
     },
     {
       "id": 3,
-      "lamina": "El Estallido",
+      "lamina": "Lo Estallado",
       "autor": "Inés García",
       "tecnica": "Acrílico",
       "numSerie": 18584,
@@ -31,7 +31,7 @@
     },
     {
       "id": 4,
-      "lamina": "El arte de naufragar",
+      "lamina": "El Náufrago",
       "autor": "Juana Iful",
       "tecnica": "Acuarela",
       "numSerie": 59675,
@@ -41,7 +41,7 @@
     },
     {
       "id": 5,
-      "lamina": "Detalles de luz",
+      "lamina": "I Ornamenti",
       "autor": "Marta Verillo",
       "tecnica": "Collage",
       "numSerie": 51410,
@@ -51,7 +51,7 @@
     },
     {
       "id": 6,
-      "lamina": "Guernica 2.0",
+      "lamina": "Guernica 2x",
       "autor": "Tomás Larco",
       "tecnica": "Acrílico",
       "numSerie": 23947,
@@ -62,7 +62,7 @@
 
     {
       "id": 7,
-      "lamina": "Savannah, Georgia",
+      "lamina": "Savannah, G",
       "autor": "Marisol del Valle",
       "tecnica": "Óleo y Espátula",
       "numSerie": 189571,
@@ -73,7 +73,7 @@
 
     {
       "id": 8,
-      "lamina": "Destellos",
+      "lamina": "El Destellor",
       "autor": "Inés García",
       "tecnica": "Acrílico",
       "numSerie": 45030,
@@ -84,7 +84,7 @@
 
     {
       "id": 9,
-      "lamina": "Tallasophobia",
+      "lamina": "Talasofobia",
       "autor": "Rafael Jaure",
       "tecnica": "Óleo y Espátula",
       "numSerie": 63920,
