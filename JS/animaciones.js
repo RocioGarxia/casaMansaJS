@@ -15,3 +15,19 @@ $(document).ready(function(){
         
         });
     });
+
+    $(document).ready(function(){
+        $("#arte").click(function(){
+
+            $(".linea").show (3000), 
+            $(".linea").animate({
+                height: "100px",
+                width: "50px",
+                marginLeft: "96.7%",
+            }, 4500, function () {
+                    $(".linea").fadeOut (3000); 
+                    });
+            
+            });
+        });
+    

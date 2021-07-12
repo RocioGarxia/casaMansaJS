@@ -23,7 +23,7 @@ header {
     text-align: center;
     align-content: center;
     width: 250px;
-    margin-left: 600px;
+    margin-left: 635px;
     margin-top: 50px;
 
   }
@@ -32,7 +32,7 @@ header {
       height: 200px;
       width: 300px;
       background: #4e2aed88;
-      margin-left: 470px;
+      margin-left: 500px;
       margin-top: 200px;
       text-align: center;
       padding: 20px;
@@ -40,7 +40,16 @@ header {
       color: cornsilk;
       font-family: "Playfair Display", serif;
     }
-    
+  
+    .linea {
+      height: 0px;
+      width: 0px;
+      position: absolute;
+      background: #ed2add52;
+      margin-bottom: 50px;
+      margin-left: 0%;
+      margin-top: 150px;
+    }
 
    /* FIN CSS ANIMACIONES JQUERY*/
 
