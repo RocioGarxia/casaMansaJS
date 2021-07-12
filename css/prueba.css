@@ -51,6 +51,13 @@ header {
       margin-top: 150px;
     }
 
+    .barra {
+      height: 0px;
+      width: 100%;
+      position: absolute;
+      background: #ed2a5b7e;
+      margin-top: 0px;
+    }
    /* FIN CSS ANIMACIONES JQUERY*/
 
 body {
