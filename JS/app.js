@@ -77,7 +77,7 @@ function agregarAlCarrito(id) {
 
     carritoDeCompras.map(x => {
     if (x.id == id) {
-        count.innerText = `Cantidad: ${x.cantidad += 1}`
+        count.innerText = `cantidad: ${x.cantidad += 1}`
         actualizarCarrito()
         }
     })
@@ -93,7 +93,7 @@ function agregarAlCarrito(id) {
         div.innerHTML = `
         <p>${productoAgregar.lamina}</p>
         <p id=cantidad${productoAgregar.id}>cantidad:${productoAgregar.cantidad}</p>
-        <p>$${productoAgregar.precio}</p>
+        <p>Precio: $${productoAgregar.precio}</p>
         <button id="eliminar${productoAgregar.id}" class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
         `
         contenedorCarrito.appendChild(div)
@@ -101,7 +101,7 @@ function agregarAlCarrito(id) {
         let count = document.getElementById(`cantidad${id}`)
         carritoDeCompras.map(x => {
             if (x.id == id) {
-                count.innerText = `Cantidad: ${x.cantidad = 1}`
+                count.innerText = `cantidad: ${x.cantidad = 1}`
                 actualizarCarrito()
             }
         })
@@ -140,9 +140,11 @@ localStorage.setItem('carritoDeCompras', JSON.stringify(carritoDeCompras))
 precioTotal.innerText = carritoDeCompras.reduce((acc, el) => acc + el.precio, 0) 
 }
 
-const comprarButton = document.querySelector ("#confirmarCompra");
-comprarButton.addEventListener ("click", comprarButtonClicked);
-function comprarButtonClicked () {
+const botonComprar = document.getElementById('ConfirmarCompra');
+botonComprar.addEventListener ("click", confirmarCompra);
+
+
+function confirmarCompra () {
     contenedorCarrito.innerHTML = "";
-    actualizarCarrito ();
+    contenedorCarrito.innerHTML = `<p>En breve procesaremos tu pedido!<p>`;
     }
