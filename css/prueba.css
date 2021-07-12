@@ -338,3 +338,11 @@ ul li {
   background: rgba(255, 248, 220, 0.342);
   color: white;
 }
+
+.novedadesContainer {
+  height: 800px;
+}
+#map {
+  width: 500px;
+  height: 300px;
+}
