@@ -151,5 +151,6 @@ function Ocultar () {
 function confirmarCompra () {
     contenedorCarrito.innerHTML = "";
     contenedorCarrito.innerHTML = `<p>En breve procesaremos tu pedido!<p>`;
+    contadorCarrito.innerText = 0;
     carritoDeCompras=[];
     }
