@@ -137,14 +137,19 @@ function actualizarCarrito() {
 contadorCarrito.innerText = carritoDeCompras.reduce((acc, el) => acc + el.cantidad, 0)
 
 localStorage.setItem('carritoDeCompras', JSON.stringify(carritoDeCompras))
-precioTotal.innerText = carritoDeCompras.reduce((acc, el) => acc + el.precio, 0) 
+precioTotal.innerText = carritoDeCompras.reduce((acc, el) => acc + el.precio*el.cantidad, 0) 
 }
 
 const botonComprar = document.getElementById('ConfirmarCompra');
 botonComprar.addEventListener ("click", confirmarCompra);
+botonComprar.addEventListener ("click", Ocultar);
 
+function Ocultar () {
+    document.getElementById("ConfirmarCompra").style.display = "none";
+    }
 
 function confirmarCompra () {
     contenedorCarrito.innerHTML = "";
     contenedorCarrito.innerHTML = `<p>En breve procesaremos tu pedido!<p>`;
+    carritoDeCompras=[];
     }
